@@ -1,7 +1,7 @@
 import React from "react";
 function Home() {
   return (
-    <div className="justify-content-center align-items-center">
+    <div className="text-warning bg-dark justify-content-center align-items-center">
       {/* <!--Landing page--> */}
 
       <h1>Welcome to the Joel Hilton Film Collection</h1>

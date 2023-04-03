@@ -3,10 +3,12 @@ import React from "react";
 function Podcasts() {
   return (
     <React.Fragment>
-      <h1>Click here for cool podcasts!</h1>
-      <a className="button button-large" href="https://baconsale.com/">
-        Podcasts
-      </a>
+      <div className="bg-dark text-warning">
+        <h1>Click the link below for cool podcasts!</h1>
+        <a className="bg-success text-warning" href="https://baconsale.com/">
+          Podcasts
+        </a>
+      </div>
     </React.Fragment>
   );
 }
