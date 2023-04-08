@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.css";
-import Header from "./Header";
+import Header from "../Header";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Podcasts from "./Podcasts";
-import Home from "./Home";
-import MovieList from "./Movies";
+import Podcasts from "../Podcasts";
+import Home from "../Home";
+import MovieList from "../movie/MovieList";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Podcasts" element={<Podcasts />} />
-          <Route path="/Movies" element={<MovieList />} />
+          <Route path="/movie/MovieList" element={<MovieList />} />
         </Routes>
       </BrowserRouter>
     </>
